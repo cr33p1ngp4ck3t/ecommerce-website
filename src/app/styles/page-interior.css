@@ -1,0 +1,73 @@
+
+.container {
+    display: flex;
+    right: 30%;
+    background-color: #FCF8F3;
+    width: 100%;
+    overflow: hidden;
+}
+.image-container { 
+    display: flex; 
+    width: inherit;
+    transition: transform 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) ; 
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 25px;
+    border-radius: 5px;
+}
+.text-overlay h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.text-overlay p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+.arrow {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.179);
+    border: 1px solid rgb(196, 196, 196);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dots {
+    position: absolute;
+    align-items: center;
+    bottom: 5%;
+    right: 10%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dot.active {
+    background-color: #B88E2F;
+    border: 1px solid #B88E2F;
+}
+

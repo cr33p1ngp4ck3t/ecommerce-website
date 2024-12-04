@@ -1,0 +1,40 @@
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9F1E7;
+    margin-bottom: 6vw;
+}
+
+#filter-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 30px;
+    align-items: center;
+}
+
+.filter #filter-container #a {
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+
+#b-style {
+    border: none;
+    min-width: fit-content;
+    width: 0%;
+    max-width: 55px;
+    height: 55px;
+    justify-items: center;
+    align-content: center;
+    text-wrap: nowrap;
+}
+#b-style {
+    select {
+        border: none;
+        width: 100px;
+        height: inherit;
+    }
+}
