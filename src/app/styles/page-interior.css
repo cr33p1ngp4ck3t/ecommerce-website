@@ -9,7 +9,7 @@
 .image-container { 
     display: flex; 
     width: inherit;
-    transition: transform 6s cubic-bezier(0.175, 0.885, 0.32, 1.275) ; 
+    transition: transform 8s cubic-bezier(0.175, 0.885, 0.32, 1.275) ; 
 }
 .image {
     display: flex;

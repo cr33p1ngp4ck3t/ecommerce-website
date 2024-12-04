@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 /* eslint-disable @next/next/no-img-element */
 export default function Hero() {
     return( 
@@ -11,7 +13,7 @@ export default function Hero() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
                         </div>
                         <div style={{alignSelf:"start", background:"#FFF3E3"}}>
-                            <a href="/shop" style={{flex:'1'}}><button id="content-button">Buy Now</button></a>
+                            <Link href="/shop" style={{flex:'1'}}><button id="content-button">Buy Now</button></Link>
                         </div>
                     </div>
                 </div>

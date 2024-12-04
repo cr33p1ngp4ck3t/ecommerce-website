@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Carousel from "./carousel"
 
 
@@ -10,7 +11,7 @@ export default function Insp() {
                         <div id="insp-container">
                             <div id="insp-heading">50+ Beautiful rooms inspiration</div>
                             <div id="insp-subtitle">Our designer already made a lot of beautiful prototype of rooms that inspire you</div>
-                            <button id="insp-button">Explore More</button>
+                            <Link href='/shop'><button id="insp-button">Explore More</button></Link> 
                         </div>
                     </div>
                     <div style={{display:"flex", flex:1}}>

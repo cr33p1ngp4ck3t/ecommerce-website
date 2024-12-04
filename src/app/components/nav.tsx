@@ -1,5 +1,6 @@
 import Image from "next/image"
 import '../styles/style.css'
+import Link from "next/link"
 
 export function Navbar() {
     return (
@@ -16,10 +17,10 @@ export function Navbar() {
                         <h2>Furniro</h2>
                     </div>
                     <div id="pages">
-                        <a href="/"><span>Home</span></a>
-                        <a href="/shop"><span>Shop</span></a>
-                        <a href="/about"><span>About</span></a>
-                        <a href="/contact"><span>Contact</span></a>
+                        <Link href="/"><span>Home</span></Link>
+                        <Link href="/shop"><span>Shop</span></Link>
+                        <Link href="/about"><span>About</span></Link>
+                        <Link href="/contact"><span>Contact</span></Link>
                     </div>
                     <div id="items">
                         <Image width={23.33} height={18.67} src={"https://i.postimg.cc/rFddHn12/user.png"} alt="" />
@@ -51,10 +52,10 @@ export function Footer() {
                                 <div style={{width:'60%'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
                             </div>
                             <div className="x">
-                                <a href="/"><div>Home</div></a>
-                                <a href="/shop"><div>Shop</div></a>
-                                <a href="/about"><div>About</div></a>
-                                <a href="/contact"><div>Contact</div></a>
+                                <Link href="/"><div>Home</div></Link>
+                                <Link href="/shop"><div>Shop</div></Link>
+                                <Link href="/about"><div>About</div></Link>
+                                <Link href="/contact"><div>Contact</div></Link>
                             </div>
                             <div className="x">
                                 <div>Payment Options</div>
