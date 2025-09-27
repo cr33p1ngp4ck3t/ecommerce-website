@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
 	return (
 		<div className="s-hero">
-			<Image src="/hero.png" alt="" width={1280} height={638} />
+			<Image src="/images/hero.png" alt="" width={1280} height={638} />
 			<div id="container">
 				<div style={{ margin: "5%" }}>
 					<div id="content">

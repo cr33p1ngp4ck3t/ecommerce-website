@@ -14,19 +14,24 @@ export default function Itemtype() {
 					</div>
 					<div className="items-container">
 						<div id="items">
-							<Image src="/bedroom.png" alt="" width={381} height={480} />
+							<Image src="/images/bedroom.png" alt="" width={381} height={480} />
 							<div>
 								<div id="items-desc">Dining</div>
 							</div>
 						</div>
 						<div id="items">
-							<Image src={"/living-room.png"} alt="" width={381} height={480} />
+							<Image
+								src={"/images/living-room.png"}
+								alt=""
+								width={381}
+								height={480}
+							/>
 							<div>
 								<div id="items-desc">Living</div>
 							</div>
 						</div>
 						<div id="items">
-							<Image src={"/table.png"} alt="" width={381} height={480} />
+							<Image src={"/images/table.png"} alt="" width={381} height={480} />
 							<div>
 								<div id="items-desc">Bedroom</div>
 							</div>
