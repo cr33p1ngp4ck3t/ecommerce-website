@@ -26,7 +26,7 @@ export default function Itemtype() {
 							</div>
 						</div>
 						<div id="items">
-							<Image src={"https://i.postimg.cc/ydnrCsXT/Mask-Group-1.png"} alt="" />
+							<Image src={"/table.png"} alt="" width={381} height={480} />
 							<div>
 								<div id="items-desc">Bedroom</div>
 							</div>
