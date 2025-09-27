@@ -1,7 +1,8 @@
 import Breadcrumb from "../components/breadcrumbs";
 import Filter from "../components/filter";
 import Image from "next/image";
-export const Proof = () => {
+
+export function Proof() {
 	return (
 		<div className="proof">
 			<div id="proof-container">
@@ -36,7 +37,7 @@ export const Proof = () => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default function ShopPage() {
 	return (
