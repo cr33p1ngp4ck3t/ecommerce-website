@@ -70,9 +70,9 @@ export function Footer() {
 					<div className="container">
 						<div id="container-1">
 							<div id="footer-heading">
-								<a href="/">
+								<Link href="/">
 									Funiro<span style={{ color: "#B88E2F" }}>.</span>
-								</a>
+								</Link>
 							</div>
 							<div className="a">Links</div>
 							<div className="a">Help</div>
