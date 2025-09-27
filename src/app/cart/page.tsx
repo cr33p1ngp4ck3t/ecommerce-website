@@ -1,5 +1,5 @@
 import Breadcrumb from "../components/breadcrumbs";
-import { Proof } from "../shop/page";
+import { Proof } from "../shop/proof";
 import Image from "next/image";
 
 export default function Card() {

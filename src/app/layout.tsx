@@ -20,12 +20,6 @@ export const metadata: Metadata = {
 		locale: "en_US",
 		type: "website",
 	},
-	twitter: {
-		card: "summary_large_image",
-		title: "Furniro | Modern Furniture Ecommerce",
-		description: "Explore Furniro’s clean and modern furniture web design template.",
-		images: ["https://ecommerce-website-phi-six.vercel.app/og-image.png"],
-	},
 };
 
 export default function Homepage({ children }: { children: React.ReactNode }) {
